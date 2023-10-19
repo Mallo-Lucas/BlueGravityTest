@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 490751898b3d77d42a6190cb64b78bb3
+guid: 587515bd85d5c2548ad9433e0b204b42
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -152,11 +152,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_0
+      name: fbas_1body_human_MoveBack_(Custom)_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 145
+        x: 24
+        y: 8
         width: 14
         height: 28
       alignment: 0
@@ -166,18 +166,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 365590c248448f349b1499569d954165
-      internalID: 1611093087
+      spriteID: fe76c52a200610c438236838278dea03
+      internalID: -628584668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_1
+      name: fbas_1body_human_MoveBack_(Custom)_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 81
+        x: 87
+        y: 9
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1952653b348084a853ce35b252fad6
+      internalID: 21486813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_1body_human_MoveBack_(Custom)_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 9
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9154668b2b77b444d865066752f96931
+      internalID: 1209372779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_1body_human_MoveBack_(Custom)_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 9
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0768d8eb7bc84414e97ca769232f9096
+      internalID: -669146629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_1body_human_MoveBack_(Custom)_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 9
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68846feaa9309a046a4f551e553c4a47
+      internalID: 1460734767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_1body_human_MoveBack_(Custom)_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 8
         width: 14
         height: 28
       alignment: 0
@@ -187,29 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44fe02f14e9100489aa13259eebc7e1
-      internalID: 545330138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_2
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 17
-        width: 12
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e473e458be411340a61012f30a13581
-      internalID: 1014950127
+      spriteID: 00b19dba9a24a364395c4bcfbf8e5d8f
+      internalID: -257382091
       vertices: []
       indices: 
       edges: []
@@ -225,9 +288,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fbas_1body_human_Idle_(Custom)_1: 545330138
-      fbas_1body_human_Idle_(Custom)_0: 1611093087
-      fbas_1body_human_Idle_(Custom)_2: 1014950127
+      fbas_1body_human_MoveBack_(Custom)_5: -257382091
+      fbas_1body_human_MoveBack_(Custom)_4: 1460734767
+      fbas_1body_human_MoveBack_(Custom)_0: -628584668
+      fbas_1body_human_MoveBack_(Custom)_3: -669146629
+      fbas_1body_human_MoveBack_(Custom)_1: 21486813
+      fbas_1body_human_MoveBack_(Custom)_2: 1209372779
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

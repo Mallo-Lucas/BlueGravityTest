@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 490751898b3d77d42a6190cb64b78bb3
+guid: 4142dd80047919740a281d07c66dd0dc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -152,55 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_0
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 145
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 365590c248448f349b1499569d954165
-      internalID: 1611093087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_1
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 81
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a44fe02f14e9100489aa13259eebc7e1
-      internalID: 545330138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_2
+      name: fbas_05shrt_shortshirt1_MoveFront(Custom)_0
       rect:
         serializedVersion: 2
         x: 26
-        y: 17
-        width: 12
-        height: 28
+        y: 13
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +166,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e473e458be411340a61012f30a13581
-      internalID: 1014950127
+      spriteID: 3d397f427a2e9aa47a7d82fcb433e85e
+      internalID: -1557948352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_05shrt_shortshirt1_MoveFront(Custom)_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 13
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5b0565f40bc194188599d30aa5cbf6
+      internalID: -286025863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_05shrt_shortshirt1_MoveFront(Custom)_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 13
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d9ec6bd8c7a1541abd10f7e91a5953
+      internalID: -355982806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_05shrt_shortshirt1_MoveFront(Custom)_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 13
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f28dbadd98a9af46bd2c11d3e2284cb
+      internalID: 2104086517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_05shrt_shortshirt1_MoveFront(Custom)_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 13
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5281a0164a53dcd4ba8a9971e307d0a0
+      internalID: -873981412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_05shrt_shortshirt1_MoveFront(Custom)_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 12
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dba7fe4606198f4ab8ffc11e2b7f1de
+      internalID: -261327486
       vertices: []
       indices: 
       edges: []
@@ -225,9 +288,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fbas_1body_human_Idle_(Custom)_1: 545330138
-      fbas_1body_human_Idle_(Custom)_0: 1611093087
-      fbas_1body_human_Idle_(Custom)_2: 1014950127
+      fbas_05shrt_shortshirt1_MoveFront(Custom)_3: 2104086517
+      fbas_05shrt_shortshirt1_MoveFront(Custom)_1: -286025863
+      fbas_05shrt_shortshirt1_MoveFront(Custom)_5: -261327486
+      fbas_05shrt_shortshirt1_MoveFront(Custom)_0: -1557948352
+      fbas_05shrt_shortshirt1_MoveFront(Custom)_2: -355982806
+      fbas_05shrt_shortshirt1_MoveFront(Custom)_4: -873981412
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

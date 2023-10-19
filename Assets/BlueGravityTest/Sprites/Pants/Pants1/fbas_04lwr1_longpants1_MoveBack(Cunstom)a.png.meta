@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 490751898b3d77d42a6190cb64b78bb3
+guid: a38398e75bfe5ec4baeee0b6f8e8ac52
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -152,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_0
+      name: fbas_04lwr1_longpants1_MoveBack(Cunstom)a_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 145
-        width: 14
-        height: 28
+        x: 14
+        y: 31
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 365590c248448f349b1499569d954165
-      internalID: 1611093087
+      spriteID: 4973db990ef6a8f42a6fb706a55fe7cf
+      internalID: 1767352164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_1
+      name: fbas_04lwr1_longpants1_MoveBack(Cunstom)a_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 81
-        width: 14
-        height: 28
+        x: 77
+        y: 33
+        width: 10
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44fe02f14e9100489aa13259eebc7e1
-      internalID: 545330138
+      spriteID: 0a9fda7ebf2240246ae1097ccaee784b
+      internalID: -1451000119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_2
+      name: fbas_04lwr1_longpants1_MoveBack(Cunstom)a_2
       rect:
         serializedVersion: 2
-        x: 26
-        y: 17
-        width: 12
-        height: 28
+        x: 141
+        y: 32
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e473e458be411340a61012f30a13581
-      internalID: 1014950127
+      spriteID: 3500e648c2b171948a7f24ea0d539527
+      internalID: -1342971173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_04lwr1_longpants1_MoveBack(Cunstom)a_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 30
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25759fd67ede01146a164309083c377b
+      internalID: -1802019837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_04lwr1_longpants1_MoveBack(Cunstom)a_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 33
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c00f7575bd0694681330938732fdcd
+      internalID: 907856663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_04lwr1_longpants1_MoveBack(Cunstom)a_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 33
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc3b213b96b5c4bbda456b1c73044b
+      internalID: 2147447402
       vertices: []
       indices: 
       edges: []
@@ -225,9 +288,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fbas_1body_human_Idle_(Custom)_1: 545330138
-      fbas_1body_human_Idle_(Custom)_0: 1611093087
-      fbas_1body_human_Idle_(Custom)_2: 1014950127
+      fbas_04lwr1_longpants1_MoveBack(Cunstom)a_3: -1802019837
+      fbas_04lwr1_longpants1_MoveBack(Cunstom)a_5: 2147447402
+      fbas_04lwr1_longpants1_MoveBack(Cunstom)a_0: 1767352164
+      fbas_04lwr1_longpants1_MoveBack(Cunstom)a_2: -1342971173
+      fbas_04lwr1_longpants1_MoveBack(Cunstom)a_1: -1451000119
+      fbas_04lwr1_longpants1_MoveBack(Cunstom)a_4: 907856663
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

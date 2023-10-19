@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 490751898b3d77d42a6190cb64b78bb3
+guid: 53badac937eeb634291bcce62410c5bb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -152,64 +152,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_0
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 145
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 365590c248448f349b1499569d954165
-      internalID: 1611093087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_1
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 81
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a44fe02f14e9100489aa13259eebc7e1
-      internalID: 545330138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_2
+      name: fbas_03fot1_shoes_MoveSide(Custom)a_0
       rect:
         serializedVersion: 2
         x: 26
-        y: 17
-        width: 12
-        height: 28
+        y: 14
+        width: 13
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e473e458be411340a61012f30a13581
-      internalID: 1014950127
+      spriteID: 52fcad43262788347b1f748f4f0637ce
+      internalID: 273827620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_03fot1_shoes_MoveSide(Custom)a_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 14
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed02cf2c8618df41849fb20e0938fef
+      internalID: -1371074703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_03fot1_shoes_MoveSide(Custom)a_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 14
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83405c340dd9dfe4e979b9602474a609
+      internalID: -1463592388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_03fot1_shoes_MoveSide(Custom)a_4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 14
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3ecf82a2db96c4a8eb32ce4e0f9b42
+      internalID: 274271105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_03fot1_shoes_MoveSide(Custom)a_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 14
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41706964fe6c6e43831c3e1896e30dc
+      internalID: -2092790563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_03fot1_shoes_MoveSide(Custom)a_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 14
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c10236a44c1a94eb7538dbe7f1c08b
+      internalID: -346520196
       vertices: []
       indices: 
       edges: []
@@ -225,9 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fbas_1body_human_Idle_(Custom)_1: 545330138
-      fbas_1body_human_Idle_(Custom)_0: 1611093087
-      fbas_1body_human_Idle_(Custom)_2: 1014950127
+      fbas_03fot1_shoes_MoveSide(Custom)a_0: 273827620
+      fbas_03fot1_shoes_MoveSide(Custom)a_1: -1371074703
+      fbas_03fot1_shoes_MoveSide(Custom)a_7: 1727954862
+      fbas_03fot1_shoes_MoveSide(Custom)a_5: -2092790563
+      fbas_03fot1_shoes_MoveSide(Custom)a_3: -1463592388
+      fbas_03fot1_shoes_MoveSide(Custom)a_4: 274271105
+      fbas_03fot1_shoes_MoveSide(Custom)a_6: -346520196
+      fbas_03fot1_shoes_MoveSide(Custom)a_2: -150162602
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

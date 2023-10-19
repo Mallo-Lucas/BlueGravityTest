@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 490751898b3d77d42a6190cb64b78bb3
+guid: 7b0dc3c0aeb396347884803bd76feaeb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -152,11 +152,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_0
+      name: fbas_1body_human_MoveFront_(Custom)_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 145
+        x: 24
+        y: 9
         width: 14
         height: 28
       alignment: 0
@@ -166,18 +166,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 365590c248448f349b1499569d954165
-      internalID: 1611093087
+      spriteID: b73496441ca1c6348b324053c2d1a4cb
+      internalID: -1949125526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_1
+      name: fbas_1body_human_MoveFront_(Custom)_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 81
+        x: 88
+        y: 9
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc3a5374293da547b9bebfc9a54d084
+      internalID: -1113013003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_1body_human_MoveFront_(Custom)_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 10
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151622e09fa13f847a6a8f5ca1ae7f70
+      internalID: 686224525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_1body_human_MoveFront_(Custom)_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 14
         width: 14
         height: 28
       alignment: 0
@@ -187,19 +229,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44fe02f14e9100489aa13259eebc7e1
-      internalID: 545330138
+      spriteID: 43aaea4550814e746bcd587fecc0e741
+      internalID: 1755449361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fbas_1body_human_Idle_(Custom)_2
+      name: fbas_1body_human_MoveFront_(Custom)_4
       rect:
         serializedVersion: 2
-        x: 26
-        y: 17
-        width: 12
+        x: 256
+        y: 9
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab1b4d7756f95449251602fcad2614
+      internalID: 661320275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_1body_human_MoveFront_(Custom)_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 11
+        width: 15
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -208,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e473e458be411340a61012f30a13581
-      internalID: 1014950127
+      spriteID: 85be9fd419181204793cce0e7f7ead2c
+      internalID: -240556243
       vertices: []
       indices: 
       edges: []
@@ -225,9 +288,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fbas_1body_human_Idle_(Custom)_1: 545330138
-      fbas_1body_human_Idle_(Custom)_0: 1611093087
-      fbas_1body_human_Idle_(Custom)_2: 1014950127
+      fbas_1body_human_MoveFront_(Custom)_4: 661320275
+      fbas_1body_human_MoveFront_(Custom)_0: -1949125526
+      fbas_1body_human_MoveFront_(Custom)_2: 686224525
+      fbas_1body_human_MoveFront_(Custom)_5: -240556243
+      fbas_1body_human_MoveFront_(Custom)_3: 1755449361
+      fbas_1body_human_MoveFront_(Custom)_1: -1113013003
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
