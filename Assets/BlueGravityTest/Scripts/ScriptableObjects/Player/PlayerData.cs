@@ -6,6 +6,8 @@ namespace BlueGravityTest.ScriptableObjects.Player
     public class PlayerData : ScriptableObject
     {
         public float playerSpeed;
+        public float  playerInteractRadius;
+        public int  defaultGold;
     }
 }
 

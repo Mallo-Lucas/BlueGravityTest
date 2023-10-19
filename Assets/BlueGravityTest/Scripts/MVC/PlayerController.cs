@@ -8,10 +8,12 @@ namespace BlueGravityTest.Scripts.MVC
     {
         
         public Action<Vector2> OnMove;
+        public Action OnInteract;
         
         [SerializeField] private PlayerInput playerInput;
         
         private InputAction _moveAction;
+        private InputAction _onInteract;
         
         private void Awake()
         {
@@ -24,17 +26,24 @@ namespace BlueGravityTest.Scripts.MVC
                 return;
 
             _moveAction = playerInput.actions["Move"];
+            _onInteract = playerInput.actions["Interact"];
             SubscribeInputs();
         }
 
         private void SubscribeInputs()
         {
             _moveAction.performed += MoveAction;
+            _onInteract.performed += InteractAction;
         }
 
         private void MoveAction(InputAction.CallbackContext context)
         {
             OnMove?.Invoke(context.ReadValue<Vector2>());
+        }
+        
+        private void InteractAction(InputAction.CallbackContext context)
+        {
+            OnInteract?.Invoke();
         }
     }
 }

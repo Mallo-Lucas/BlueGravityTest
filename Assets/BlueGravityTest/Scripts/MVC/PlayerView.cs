@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace BlueGravityTest.Scripts.MVC
@@ -8,7 +9,6 @@ namespace BlueGravityTest.Scripts.MVC
     public class PlayerView : MonoBehaviour
     {
         public enum BodyParts {Body, Shirt, Shoes, Pants}
-
         
         [SerializeField] private List<AnimatorParts> playerAnimators;
 
@@ -38,10 +38,17 @@ namespace BlueGravityTest.Scripts.MVC
                 animatorParts.spriteRenderer.flipX = !(dir.x > 0);
             }
         }
+        
+        private void SetClothe(BodyParts bodyPart, RuntimeAnimatorController animator)
+        {
+            var animatorPart = playerAnimators.FirstOrDefault(x => x.bodyParts == bodyPart);
+            animatorPart.animator.runtimeAnimatorController = animator;
+        }
     }
 
+    
     [Serializable]
-    public class AnimatorParts
+    public struct AnimatorParts
     {
         public PlayerView.BodyParts bodyParts;
         public Animator animator;
