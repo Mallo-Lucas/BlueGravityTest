@@ -33,7 +33,7 @@ namespace BlueGravityTest.Scripts.UI
 
         public void ReplaceSlotData(ClothesData data)
         {
-            if ((ClothesData)_itemData == null)
+            if (_itemData.GetType() != typeof(ClothesData))
                 return;
             
             _itemData = data;
@@ -42,7 +42,7 @@ namespace BlueGravityTest.Scripts.UI
 
         public ClothesData GetSlotClotheData()
         {
-            if ((ClothesData)_itemData == null)
+            if (_itemData.GetType() != typeof(ClothesData))
                 return default;
             return (ClothesData)_itemData;
         }

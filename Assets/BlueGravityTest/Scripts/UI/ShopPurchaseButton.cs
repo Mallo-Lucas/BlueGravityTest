@@ -12,12 +12,13 @@ namespace BlueGravityTest.Scripts.UI
         [SerializeField] private TMP_Text priceText;
         [SerializeField] private TMP_Text amountOfTheItemText;
         [SerializeField] private Button button;
-
+        
         private int _price;
         private int _amountOfTheItem;
         private PlayerModel _player;
         private ShopUiController _shopUiController;
         private ItemData _itemData;
+        public ItemData GetData() => _itemData;
         public void Initialize(ItemData data, int amountOfTheItem, PlayerModel player, ShopUiController shopUiController)
         {
             _itemData = data;
@@ -31,6 +32,13 @@ namespace BlueGravityTest.Scripts.UI
             button.onClick.AddListener(PurchaseItem);
         }
 
+        public void AddStack()
+        {
+            _amountOfTheItem++;
+            amountOfTheItemText.text = _amountOfTheItem.ToString();
+            button.interactable = true;
+        }
+        
         private void PurchaseItem()
         {
             if (!_player.GetPlayerWallet().Purchase(_price))

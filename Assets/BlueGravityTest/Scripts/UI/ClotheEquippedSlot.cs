@@ -42,6 +42,10 @@ namespace BlueGravityTest.Scripts.UI
 
         public void ReplaceSlotData(ClothesData data)
         {
+            _player.GetPlayerInventory().RemoveClothe(_clothesData);
+            _player.GetPlayerInventory().AddClothe(data);
+            _player.GetPlayerInventory().AddItem(_clothesData);
+            _player.GetPlayerInventory().RemoveItem(data);
             _clothesData = data;
             clotheIcon.sprite = _clothesData.itemIcon;
             playerImageReference.sprite = _clothesData.itemIcon;

@@ -19,3 +19,7 @@ MonoBehaviour:
     AmountOfTheItem: 1
   - ItemToSell: {fileID: 11400000, guid: beab62d79065eec4394c44cc12ee6fc2, type: 2}
     AmountOfTheItem: 3
+  - ItemToSell: {fileID: 11400000, guid: f95e11525520ada4b974a3615698d776, type: 2}
+    AmountOfTheItem: 1
+  - ItemToSell: {fileID: 11400000, guid: 686be5df048ef6b498b05d4666c5cbb9, type: 2}
+    AmountOfTheItem: 1

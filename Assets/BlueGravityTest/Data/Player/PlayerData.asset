@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 10
   playerInteractRadius: 2
-  defaultGold: 200
+  defaultGold: 1000
   defaultClothes:
   - {fileID: 11400000, guid: edc643e0d5219ac4bb1d49208d51ac48, type: 2}
   - {fileID: 11400000, guid: d6beb2a68d2633443b9f710cc00c7b91, type: 2}

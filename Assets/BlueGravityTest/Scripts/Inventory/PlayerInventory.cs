@@ -27,7 +27,16 @@ namespace BlueGravityTest.Scripts.Inventory
         {
             _items.Remove(item);
         }
+
+        public void AddClothe(ClothesData data)
+        {
+            _equippedClothes.Add(data);
+        }
         
+        public void RemoveClothe(ClothesData data)
+        {
+            _equippedClothes.Remove(data);
+        }
     }
 }
 

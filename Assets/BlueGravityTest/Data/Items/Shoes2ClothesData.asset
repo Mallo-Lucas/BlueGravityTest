@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9334e03d8a30e8543931ca74474471bc, type: 3}
   m_Name: Shoes2ClothesData
   m_EditorClassIdentifier: 
-  itemIcon: {fileID: 2105052832, guid: 1a10523f39d1a07448697d409d1e4d8e, type: 3}
+  itemIcon: {fileID: 1041196593, guid: 01bdc58b9500a594b943d43af142b2c9, type: 3}
   itemSellPrice: 30
   itemPurchasePrice: 50
   bodyParts: 2
-  clothesAnimatorController: {fileID: 22100000, guid: 679d39e6a1e996349aed730d11b618dc, type: 2}
+  clothesAnimatorController: {fileID: 22100000, guid: da6c503b4e5ca90469255f96d90de033, type: 2}

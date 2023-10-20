@@ -1,11 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using BlueGravityTest.ScriptableObjects.Items;
 using BlueGravityTest.Scripts.MVC;
-using BlueGravityTest.Scripts.UI;
+using TMPro;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace BlueGravityTest.Scripts.UI
@@ -17,6 +15,7 @@ namespace BlueGravityTest.Scripts.UI
       [SerializeField] private List<ClotheEquippedSlot> clotheEquippedSlot;
       [SerializeField] private InventorySlot inventorySlotPrefab;
       [SerializeField] private Image slotDrawReference;
+      [SerializeField] private TMP_Text goldText;
       
       private PlayerModel _player;
       private Dictionary<int, Action<PlayerModel>> _uiEventDeployer;
@@ -31,7 +30,7 @@ namespace BlueGravityTest.Scripts.UI
             { (int)UICommands.OPEN_INVENTORY, OpenInventory },
          };
       }
-   
+      
       private void OpenInventory(PlayerModel player)
       {
          panel.SetActive(!panel.activeSelf);
@@ -44,6 +43,7 @@ namespace BlueGravityTest.Scripts.UI
          }
          
          _player = player;
+         goldText.text = _player.GetPlayerWallet().GetCurrentGold().ToString();
          var inventory =  _player.GetPlayerInventory();
          foreach (var clothesData in inventory.GetEquippedClothes())
          {
@@ -57,6 +57,7 @@ namespace BlueGravityTest.Scripts.UI
             newItemSlot.Initialize(item,this);
             _inventorySlotsCreated.Add(newItemSlot);
          }
+         
       }
    
       private void CloseInventory()
@@ -88,13 +89,14 @@ namespace BlueGravityTest.Scripts.UI
       
       public void ReplaceSlots()
       {
-         if (_slotPointerDown == null || _slotPointerEnter == null)
+         if (_slotPointerDown == null || _slotPointerEnter == null || _slotPointerDown.GetSlotClotheData().bodyParts != _slotPointerEnter.GetSlotClotheData().bodyParts)
          {
             _slotPointerDown = null;
             _slotPointerEnter = null;
             _onDraw = false;
             return;
          }
+         
          var slotPointerDownData = _slotPointerDown.GetSlotClotheData();
          _slotPointerDown.ReplaceSlotData(_slotPointerEnter.GetSlotClotheData());
          _slotPointerEnter.ReplaceSlotData(slotPointerDownData);
