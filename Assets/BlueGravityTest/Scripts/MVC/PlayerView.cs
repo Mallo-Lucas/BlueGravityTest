@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using BlueGravityTest.Scripts.UI;
 using UnityEngine;
 
 namespace BlueGravityTest.Scripts.MVC
@@ -11,7 +12,7 @@ namespace BlueGravityTest.Scripts.MVC
         public enum BodyParts {Body, Shirt, Shoes, Pants}
         
         [SerializeField] private List<AnimatorParts> playerAnimators;
-
+        
         private static readonly string MOVE_ANIMATION ="OnMove";
         private static readonly string X_MAGNITUDE ="X";
         private static readonly string Y_MAGNITUDE ="Y";
@@ -19,6 +20,7 @@ namespace BlueGravityTest.Scripts.MVC
         public void Subscribe(PlayerModel model)
         {
             model.OnMove += MoveAnimation;
+            model.OnChangeClothe += SetClothe;
         }
 
         private void MoveAnimation(Vector2 dir)

@@ -15,4 +15,5 @@ MonoBehaviour:
   itemIcon: {fileID: 728869453, guid: 54f112a719882a3439a9db3fa66d354d, type: 3}
   itemSellPrice: 50
   itemPurchasePrice: 70
+  bodyParts: 3
   clothesAnimatorController: {fileID: 22100000, guid: dcdfc65fef1f4ba46be87324fec3f8d3, type: 2}

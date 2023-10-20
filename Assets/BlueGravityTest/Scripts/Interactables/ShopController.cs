@@ -1,6 +1,7 @@
 using System;
 using BlueGravityTest.ScriptableObjects.Items;
 using BlueGravityTest.Scripts.MVC;
+using BlueGravityTest.Scripts.UI;
 using UnityEngine;
 
 namespace BlueGravityTest.Scripts.Interactables

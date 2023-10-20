@@ -15,3 +15,7 @@ MonoBehaviour:
   playerSpeed: 10
   playerInteractRadius: 2
   defaultGold: 200
+  defaultClothes:
+  - {fileID: 11400000, guid: edc643e0d5219ac4bb1d49208d51ac48, type: 2}
+  - {fileID: 11400000, guid: d6beb2a68d2633443b9f710cc00c7b91, type: 2}
+  - {fileID: 11400000, guid: 458d8d6df4d77384c8c2b5b5eef60eb5, type: 2}

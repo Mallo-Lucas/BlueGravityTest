@@ -162,6 +162,7 @@ MonoBehaviour:
   controller: {fileID: 2599028309656393123}
   view: {fileID: 2599028309656393122}
   rb: {fileID: 2599028309656393133}
+  uiEvent: {fileID: 11400000, guid: 3b0004e7496f1594db95bae286789f80, type: 2}
 --- !u!114 &2599028309656393122
 MonoBehaviour:
   m_ObjectHideFlags: 0

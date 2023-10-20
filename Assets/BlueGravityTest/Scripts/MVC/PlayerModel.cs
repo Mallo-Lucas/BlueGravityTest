@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using BlueGravityTest.ScriptableObjects.Player;
 using BlueGravityTest.Scripts.Interactables;
 using BlueGravityTest.Scripts.Inventory;
+using BlueGravityTest.Scripts.UI;
 using UnityEngine;
 
 namespace BlueGravityTest.Scripts.MVC
@@ -11,12 +12,15 @@ namespace BlueGravityTest.Scripts.MVC
     public class PlayerModel : MonoBehaviour
     {
         public Action<Vector2> OnMove;
+        public Action<PlayerView.BodyParts, RuntimeAnimatorController> OnChangeClothe;
         public PlayerWallet GetPlayerWallet() => _wallet;
+        public PlayerInventory GetPlayerInventory() => _playerInventory;
         
         [SerializeField] private PlayerData playerData;
         [SerializeField] private PlayerController controller;
         [SerializeField] private PlayerView view;
         [SerializeField] private Rigidbody2D rb;
+        [SerializeField] private UIEvent uiEvent;
 
         private Vector2 _movementDirection;
         private float _movementSpeed;
@@ -24,6 +28,7 @@ namespace BlueGravityTest.Scripts.MVC
         private bool _canMove;
         private Collider2D[] _interactablesFound = new Collider2D[5];
         private PlayerWallet _wallet;
+        private PlayerInventory _playerInventory;
         
         private void Awake()
         {
@@ -53,6 +58,7 @@ namespace BlueGravityTest.Scripts.MVC
         {
             controller.OnMove += SetMovementDirection;
             controller.OnInteract += Interact;
+            controller.OnOpenInventory += OpenInventory;
             view.Subscribe(this);
         }
 
@@ -63,8 +69,16 @@ namespace BlueGravityTest.Scripts.MVC
             _movementSpeed = playerData.playerSpeed;
             _playerInteractRadius = playerData.playerInteractRadius;
             _wallet = new PlayerWallet(playerData.defaultGold);
+            _playerInventory = new PlayerInventory(playerData.defaultClothes);
+            foreach (var clothe in playerData.defaultClothes)
+                OnChangeClothe?.Invoke(clothe.bodyParts,clothe.clothesAnimatorController);
         }
 
+        public void SetClotheHandler(PlayerView.BodyParts bodyParts, RuntimeAnimatorController clothesAnimatorController)
+        {
+            OnChangeClothe?.Invoke(bodyParts, clothesAnimatorController);
+        }
+        
         public void CanMove(bool state)
         {
             _canMove = state;
@@ -101,6 +115,15 @@ namespace BlueGravityTest.Scripts.MVC
                 }
                 yield return null;
             }
+        }
+        
+        private void OpenInventory()
+        {
+            uiEvent.Raise(new UIParams()
+            {
+                Command = UICommands.OPEN_INVENTORY,
+                Player = this
+            });
         }
     }
 }

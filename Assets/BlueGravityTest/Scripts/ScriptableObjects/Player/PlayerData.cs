@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using BlueGravityTest.ScriptableObjects.Items;
 using UnityEngine;
 
 namespace BlueGravityTest.ScriptableObjects.Player
@@ -8,6 +10,7 @@ namespace BlueGravityTest.ScriptableObjects.Player
         public float playerSpeed;
         public float  playerInteractRadius;
         public int  defaultGold;
+        public List<ClothesData> defaultClothes;
     }
 }
 
